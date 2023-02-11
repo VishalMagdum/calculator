@@ -1,0 +1,47 @@
+.main-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+}
+
+.btn-wrap,
+p {
+    max-width: 350px;
+    color: white;
+}
+
+input {
+    width: 369px;
+    font-size: 40px;
+    margin-left: -12px;
+    padding: 0;
+    background-color: #000000;
+    color: white;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    background-color: #313131;
+}
+
+.op {
+    background-color: #f6ab39;
+}
+
+.colourG {
+    background-color: #898989;
+}
+
+.col {
+    width: 200x;
+}

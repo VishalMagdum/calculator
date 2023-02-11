@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!-- bootstarp link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container main-box">
+        <h1 id="title">Calculator</h1>
+        <div class="cal-wrap">
+            <div class="screen ">
+                <input type="text" id="result" onkeyup="cal()" autofocus>
+            </div>
+            <div class="btn-wrap ">
+                <div class="row">
+                    <button id="clear" class="col colourG">C</button>
+                    <button id="modulus" value="%" class="col colourG">%</button>
+                    <button id="backspace" class="col colourG">&#171;</button>
+                    <button id="division" value="/" class="col op">/</button>
+                </div>
+                <div class="row">
+                    <button id="7" value="7" class="col">7</button>
+                    <button id="8" value="8" class="col">8</button>
+                    <button id="9" value="9" class="col">9</button>
+                    <button id="multi" value="*" class="col op">X</button>
+                </div>
+                <div class="row">
+                    <button id="4" value="4" class="col">4</button>
+                    <button id="5" value="5" class="col">5</button>
+                    <button id="6" value="6" class="col">6</button>
+                    <button id="subtract" value="-" class="col op">-</button>
+                </div>
+                <div class="row">
+                    <button id="1" value="1" class="col">1</button>
+                    <button id="2" value="2" class="col">2</button>
+                    <button id="3" value="3" class="col">3</button>
+                    <button id="add" value="+" class="col op">+</button>
+                </div>
+                <div class="row">
+                    <button id="00" value="00" class="col">00</button>
+                    <button id="0" value="0" class="col">0</button>
+                    <button id="dot" value="." class="col">.</button>
+                    <button id="equal" value="=" class="col op">=</button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <p id="description">This Calculator app is created using HTML, CSS, and JAVASCRIPT. This app also works on
+            pressing keyboard keys, if any invalid key is pressed it will throw an alert </p>
+        <p>C & c for clear</p>
+        <p>Enter and = for result</p>
+        <p>Backspace is also in working</p>
+
+    </div>
+
+
+
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+
+</html>
